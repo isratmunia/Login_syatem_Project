@@ -1,1 +1,1 @@
-# Login_syatem_Project
+# This is a User Login System built with MongoDB, Express.js, React, and Node.js (MERN stack). It allows users to register, log in, and manage their sessions securely. The system uses JWT for authentication and password hashing for security.
