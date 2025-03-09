@@ -117,8 +117,8 @@ router.post('/forgotPassword', async (req, res) => {
         var transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'ijm.research.official@gmail.com',
-                pass: 'pgqc just pcgv vbyt'
+                user: 'your email',
+                pass: '2f authetication pass'
             }
         });
         const encodedToken = encodeURIComponent(token).replace(/\./g, "%2E");
