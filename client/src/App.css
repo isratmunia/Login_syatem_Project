@@ -1,0 +1,108 @@
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-form {
+    font-family: Arial, sans-serif;
+    width: 400px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 1px solid #74c257;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+}
+
+label {
+    font-size: 16px;
+    color: #2F4F2F;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 2px solid #8FBC8F;
+    border-radius: 5px;
+    background-color: #F0FFF0;
+    box-shadow: 0px 2px 4px rgba(0, 128, 0, 0.2);
+    font-size: 14px;
+    color: #004D00;
+}
+
+.button-container {
+    text-align: center;
+    /* Center button inside this container */
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 30px;
+    /* Control button size */
+    background-color: #32CD32;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #228B22;
+}
+
+.forgotpass {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.custom-link {
+    text-decoration: none;
+    /* Remove underline */
+    color: white;
+    /* Set text color to white */
+    font-weight: bold;
+    /* Optional: Make text bold */
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #006400;
+    /* Deep green for heading */
+    margin-bottom: 20px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 15px;
+    color: #006400;
+    /* Deep green for heading */
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.valid-icon {
+    color: green;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.invalid-icon {
+    color: red;
+    font-size: 18px;
+    margin-right: 10px;
+}
