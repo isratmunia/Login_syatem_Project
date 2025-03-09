@@ -124,7 +124,7 @@ router.post('/forgotPassword', async (req, res) => {
         const encodedToken = encodeURIComponent(token).replace(/\./g, "%2E");
 
         var mailOptions = {
-            from: 'ijm.research.official@gmail.com',
+            from: 'mail',
             to: email,
             subject: 'Reset Password',
             text: `http://localhost:5173/resetPassword/${encodedToken}`
